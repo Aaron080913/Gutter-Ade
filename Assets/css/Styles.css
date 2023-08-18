@@ -14,18 +14,19 @@ body {
 
 header {
     background-color: #1a1919;
-            padding: 1rem;
+    color: #ffffff;
+        padding: 1rem;
         position: fixed;
         z-index: 99;
         display: flex;
         justify-content: space-between;
-        align-items: baseline;
+        vertical-align: baseline;
         width: 100%;
         top: 0%;
         font-family: 'roboto-condensed', sans-serif;
         font-weight: bolder;
 }
-#nav-tool {
+#nav {
     position: absolute;
     background-color: #ffffff;
     width: 100%;
@@ -33,11 +34,30 @@ header {
     box-shadow: inset;
     display: none;
     top: 100%;
+}
+#nav-tool:checked~nav {
+    display: block;
+}
+#nav-tool {
+    display: none;
+}
+#Index {
+    list-style-type: none;
+    letter-spacing: 3px;
+}
+#nav li {
+        text-decoration: none;
+            color: inherit;
+            display: inline-block;
+}
+#Index>li {margin-bottom: 1em;}
+.active {
+    border-bottom: 1px solid #0000ee;
 
 }
 main {
     top: 10%;
-margin-top: 16px;
+margin-top: 136px;
         color: #3a3a3a;
 }
 footer {
