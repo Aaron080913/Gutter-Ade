@@ -8,13 +8,13 @@ body {
     color: #3a3a3a;
     flex-direction: column-reverse;
     display: flex;
-    min-height: 100vh;
+    min-height: 12vh;
 }
-
+#name {color: #ffffff;}
 
 header {
     background-color: #1a1919;
-            padding: 2rem;
+            padding: 1rem;
         position: fixed;
         z-index: 99;
         display: flex;
@@ -24,10 +24,21 @@ header {
         top: 0%;
         font-family: 'roboto-condensed', sans-serif;
         font-weight: bolder;
+}
+#nav-tool {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    box-shadow: inset;
+    display: none;
+    top: 100%;
 
 }
 main {
-    color: #ffffff;
+    top: 10%;
+margin-top: 16px;
+        color: #3a3a3a;
 }
 footer {
     color: #ffffff;
