@@ -5,16 +5,14 @@
     box-sizing: border-box;
 }
 body {
-    color: #3a3a3a;
+    color: #ffffff;
     flex-direction: column-reverse;
     display: flex;
     min-height: 12vh;
 }
-#name {color: #ffffff;}
-
 header {
-    background-color: #1a1919;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #3a3a3a;
         padding: 1rem;
         position: fixed;
         z-index: 99;
@@ -26,6 +24,9 @@ header {
         font-family: 'roboto-condensed', sans-serif;
         font-weight: bolder;
 }
+#site-logo {
+    padding: 2rem;
+}
 #nav {
     position: absolute;
     background-color: #ffffff;
@@ -34,6 +35,13 @@ header {
     box-shadow: inset;
     display: none;
     top: 100%;
+    font-family: 'roboto-condensed',
+            sans-serif;
+}
+a:-webkit-any-link {
+    color: #3a3a3a;
+    cursor: pointer;
+    text-decoration: none;  
 }
 #nav-tool:checked~nav {
     display: block;
@@ -41,7 +49,7 @@ header {
 #nav-tool {
     display: none;
 }
-#Index {
+#menu {
     list-style-type: none;
     letter-spacing: 3px;
 }
@@ -50,19 +58,22 @@ header {
             color: inherit;
             display: inline-block;
 }
-#Index>li {margin-bottom: 1em;}
+#menu>li {margin-bottom: 1em;}
 .active {
     border-bottom: 1px solid #0000ee;
-
+}
+#contact-column {
+    padding: 1rem;
+    margin-top: 136px;
 }
 main {
     top: 10%;
 margin-top: 136px;
-        color: #3a3a3a;
+        background-color: #3a3a3a;
 }
 footer {
-    color: #ffffff;
-    
-}
+    background-color: orangered;
+    top: 100%;
+    }
    
     
