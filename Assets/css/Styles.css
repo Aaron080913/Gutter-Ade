@@ -3,6 +3,7 @@
     padding: 0%;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'roboto-condensed', sans-serif;
 }
 body {
     color: #ffffff;
@@ -12,8 +13,8 @@ body {
 }
 header {
     background-color: #ffffff;
-    color: #3a3a3a;
-        padding: 1rem;
+    color: black;
+            padding: 1rem;
         position: fixed;
         z-index: 99;
         display: flex;
@@ -23,6 +24,8 @@ header {
         top: 0%;
         font-family: 'roboto-condensed', sans-serif;
         font-weight: bolder;
+        flex-direction: row;
+        
 }
 #site-logo {
     padding: 2rem;
@@ -66,14 +69,40 @@ a:-webkit-any-link {
     padding: 1rem;
     margin-top: 136px;
 }
+#gutter-clean {
+    background: url("../images/istockphoto-1189576247-612x612.jpg") no-repeat center center/cover;
+    max-width: 100%;
+    height: 300px;
+    }
+    #quote {
+                background-color: black;
+                justify-content: center;
+                display: flex;
+                text-decoration: solid;
+                    }
 main {
     top: 10%;
 margin-top: 136px;
-        background-color: #3a3a3a;
+        background-color: #070256;
+        font-family: 'roboto-condensed', sans-serif;
 }
+section> p1 {
+    display: block;
+    max-width: 30%;
+    margin-left: 1rem;
+    letter-spacing: 2px;
+}
+main> h2 {
+    margin: 1rem; 
+    text-decoration: underline;
+        justify-content: space-between;
+        text-align: left;
+        }
+    
 footer {
     background-color: orangered;
     top: 100%;
+    
     }
    
     
