@@ -68,25 +68,36 @@ a:-webkit-any-link {
 #contact-column {
     padding: 1rem;
     margin-top: 136px;
-    
 }
+#time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: #ffffff;
+    background-color: #3a3a3a;
+    text-decoration: solid;
+    }
 #photo {
-    display: inline;
+    display:flex;
+    flex-direction: row;
+    width: 100%;
     max-height: 300px;
 }
 #gutter-clean {
     background: url("../images/IMG-9779.jpg") no-repeat left center/cover;
-    max-width: 50%;
+    width: 50%;
     height: 300px;
     justify-content: left;
+    
     }
         #gutter-after {
             background: url("../images/IMG-9780.jpg") no-repeat right/cover;
             height: 300px;
-            justify-content: right;
+            width: 50%;
+            
         }
     #quote {
-                background-color: black;
+                background-color: #3a3a3a;
                 justify-content: center;
                 display: flex;
                 text-decoration: solid;
@@ -100,23 +111,37 @@ margin-top: 136px;
         background-color: #070256;
         font-family: 'roboto-condensed', sans-serif;
 }
-section> p1 {
-    display: block;
-    max-width: 30%;
-    margin-left: 1rem;
+#home-para {
+    display: flex;
+        margin-left: 1rem;
     letter-spacing: 2px;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3rem;
 }
-main> h2 {
-    margin: 1rem; 
+p1 {
+    margin-right: 15%;
+}
+#what {margin-right: 10%;
+margin-left: 10%;}
+#why {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+#home-head {
+    margin-top: 1rem; 
     text-decoration: underline;
-        justify-content: space-between;
+        justify-content: space-evenly;
         text-align: left;
-        }
+        display: flex;
+        flex-direction: row;
+        word-spacing: 3px;
+                }
+
     
 footer {
     background-color: orangered;
     top: 100%;
-    
-    }
+        }
    
     
