@@ -68,18 +68,32 @@ a:-webkit-any-link {
 #contact-column {
     padding: 1rem;
     margin-top: 136px;
+    
+}
+#photo {
+    display: inline;
+    max-height: 300px;
 }
 #gutter-clean {
-    background: url("../images/istockphoto-1189576247-612x612.jpg") no-repeat center center/cover;
-    max-width: 100%;
+    background: url("../images/IMG-9779.jpg") no-repeat left center/cover;
+    max-width: 50%;
     height: 300px;
+    justify-content: left;
     }
+        #gutter-after {
+            background: url("../images/IMG-9780.jpg") no-repeat right/cover;
+            height: 300px;
+            justify-content: right;
+        }
     #quote {
                 background-color: black;
                 justify-content: center;
                 display: flex;
                 text-decoration: solid;
                     }
+    #quote> a  {
+        color: #ffffff;
+    }
 main {
     top: 10%;
 margin-top: 136px;
