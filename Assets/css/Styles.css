@@ -142,6 +142,11 @@ margin-left: 10%;}
 footer {
     background-color: orangered;
     top: 100%;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
         }
    
     
