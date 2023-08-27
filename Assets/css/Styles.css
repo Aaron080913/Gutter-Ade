@@ -16,7 +16,7 @@ header {
     color: black;
             padding: 1rem;
         position: fixed;
-        z-index: 99;
+        z-index: 97;
         display: flex;
         justify-content: space-between;
         vertical-align: baseline;
@@ -30,14 +30,15 @@ header {
 #site-logo {
     padding: 2rem;
 }
-#nav {
+nav {
     position: absolute;
     background-color: #ffffff;
     width: 100%;
     left: 0;
-    box-shadow: inset;
+    box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
+    padding: 0 1rem;
     font-family: 'roboto-condensed',
             sans-serif;
 }
@@ -52,6 +53,9 @@ a:-webkit-any-link {
 #nav-tool {
     display: none;
 }
+.nav-tool-label {
+    font-size: 2rem;
+}
 #menu {
     list-style-type: none;
     letter-spacing: 3px;
@@ -62,6 +66,7 @@ a:-webkit-any-link {
             display: inline-block;
 }
 #menu>li {margin-bottom: 1em;}
+
 .active {
     border-bottom: 1px solid #0000ee;
 }
@@ -82,18 +87,19 @@ a:-webkit-any-link {
     flex-direction: row;
     width: 100%;
     max-height: 300px;
+    position: relative;
 }
 #gutter-clean {
     background: url("../images/IMG-9779.jpg") no-repeat left center/cover;
     width: 50%;
     height: 300px;
     justify-content: left;
-    
     }
         #gutter-after {
             background: url("../images/IMG-9780.jpg") no-repeat right/cover;
             height: 300px;
             width: 50%;
+            position: relative;
             
         }
     #quote {
@@ -106,47 +112,75 @@ a:-webkit-any-link {
         color: #ffffff;
     }
 main {
-    top: 10%;
-margin-top: 136px;
+    flex: 1 0 auto;
+    margin-top: 136px;
         background-color: #070256;
+        display: flex;
+        flex-direction: column;
         font-family: 'roboto-condensed', sans-serif;
 }
-#home-para {
+#what {
+    padding: 2rem;
+}
+#what-head {
+    flex: 1 0 auto;
     display: flex;
-        margin-left: 1rem;
-    letter-spacing: 2px;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 3rem;
+    margin-bottom: 20px;
 }
-p1 {
-    margin-right: 15%;
-}
-#what {margin-right: 10%;
-margin-left: 10%;}
-#why {
-    margin-right: 10%;
-    margin-left: 10%;
-}
-#home-head {
-    margin-top: 1rem; 
-    text-decoration: underline;
-        justify-content: space-evenly;
-        text-align: left;
-        display: flex;
-        flex-direction: row;
-        word-spacing: 3px;
-                }
-
+#what-para {
+    text-align: center;
     
-footer {
+}
+#clean-smile-bg {
+    background: url('../images/cleaner.jpg') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+    
+        }
+    #clean-smile {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    }
+#why {
+    padding: 1rem;
+    }
+#why-head {
+flex: 1 0 auto;
+    display: flex;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+    text-align: center center;
+}    
+#why-para {
+    text-align: center;
+}
+#info {
+    text-align: center;
+    list-style-type: none;
+    
+}
+form {
+    text-align: center;
+    background-position: center;
+    position: relative;
+    max-width: 400px;
+    
+    }
+    
+    footer {
     background-color: orangered;
     top: 100%;
     text-align: center;
     padding: 20px 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     list-style: none;
+    align-items: ;
         }
    
     
