@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 * {
-    padding: 0%;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'roboto-condensed', sans-serif;
@@ -26,9 +26,6 @@ header {
         font-weight: bolder;
         flex-direction: row;
         
-}
-#site-logo {
-    padding: 2rem;
 }
 nav {
     position: absolute;
@@ -169,18 +166,79 @@ form {
     background-position: center;
     position: relative;
     max-width: 400px;
-    
-    }
-    
+        }
     footer {
     background-color: orangered;
     top: 100%;
     text-align: center;
     padding: 20px 0;
-    display: flex;
     justify-content: center;
     list-style: none;
-    align-items: ;
+            }
+#contact-me {
+    text-align: center;
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+}
+@media screen and (min-width:768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        font-size: larger;
         }
+    #menu {
+        display: flex;
+        }
+    #menu> li {
+        padding-left: 1rem;
+        }
+    .nav-tool-label {
+        display: none;
+    }   
+    #what {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        }
+    #what-head {
+        justify-content: center;
+    }
+         
+    #why {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        }
+    #why-head {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #content {
+        display: flex;
+        flex-direction: row;
+        order: 1;
+        
+    }
+    
+    #clean-smile {
+        order: 2;
+            }
+    #why {
+        order: 3;
+        align-self: flex-end;
+    }        
+footer {
+    order: 5;
+}
+}
+
    
     
