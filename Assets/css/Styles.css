@@ -25,9 +25,13 @@ header {
         font-family: 'roboto-condensed', sans-serif;
         font-weight: bolder;
         flex-direction: row;
-        
-}
-nav {
+        }
+        #site-logo {
+            display: flex;
+            align-items: baseline;
+            padding: 1rem;
+        }
+        nav {
     position: absolute;
     background-color: #ffffff;
     width: 100%;
@@ -55,7 +59,7 @@ a:-webkit-any-link {
 }
 #menu {
     list-style-type: none;
-    letter-spacing: 3px;
+    
 }
 #nav li {
         text-decoration: none;
@@ -129,7 +133,7 @@ main {
     
 }
 #clean-smile-bg {
-    background: url('../images/cleaner.jpg') no-repeat top center / cover;
+    background: url('../images/LOGO.jpg') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -165,8 +169,7 @@ form {
     text-align: center;
     background-position: center;
     position: relative;
-    max-width: 400px;
-        }
+            }
     footer {
     background-color: orangered;
     top: 100%;
@@ -181,6 +184,27 @@ form {
         display: flex;
         justify-content: space-evenly;
         list-style-type: none;
+}
+#quote-me {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#checkbox-button {
+    padding-bottom: 1rem;
+    justify-content: space-evenly;
+}
+#quote-head {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.free-quote {
+    margin-bottom: 20px;
+    font-size: 150%;
+    
+
 }
 @media screen and (min-width:768px) {
     nav {
@@ -205,9 +229,12 @@ form {
         display: flex;
         flex-direction: column;
         width: 100%;
-        }
+                }
     #what-head {
         justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
          
     #why {
@@ -217,6 +244,20 @@ form {
         }
     #why-head {
         justify-content: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    }
+    #quote-me {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    #checkbox-type {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 }
 
@@ -225,6 +266,7 @@ form {
         display: flex;
         flex-direction: row;
         order: 1;
+        align-items: flex-end;
         
     }
     
