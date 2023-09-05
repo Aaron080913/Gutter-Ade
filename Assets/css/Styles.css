@@ -155,7 +155,7 @@ flex: 1 0 auto;
     display: flex;
     margin-bottom: 20px;
     letter-spacing: 4px;
-    text-align: center center;
+    text-align: center;
 }    
 #why-para {
     text-align: center;
@@ -171,18 +171,20 @@ form {
     position: relative;
             }
     footer {
+        flex: 1 0 auto;
     background-color: orangered;
     top: 100%;
     text-align: center;
     padding: 20px 0;
-    justify-content: center;
+    justify-content: space-around;
     list-style: none;
+    
             }
 #contact-me {
     text-align: center;
         padding: 20px 0;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         list-style-type: none;
 }
 #quote-me {
@@ -216,6 +218,10 @@ form {
         padding-top: 1rem;
         font-size: larger;
         }
+    .nav-tool-label {
+        display: none;
+        padding: 0;
+    }
     #menu {
         display: flex;
         }
