@@ -7,7 +7,7 @@
 }
 body {
     color: #ffffff;
-    flex-direction: column-reverse;
+    flex-direction: column;
     display: flex;
     min-height: 12vh;
 }
