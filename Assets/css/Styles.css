@@ -140,7 +140,7 @@ main {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
-    
+    margin-top: 20px;
         }
     #clean-smile {
             display: flex;
@@ -272,9 +272,10 @@ form {
         align-items: flex-end;
         
     }
-    
+   }
     #clean-smile {
         order: 2;
+        
             }
     #why {
         order: 3;
@@ -283,7 +284,7 @@ form {
 footer {
     order: 5;
 }
-}
+
 
    
     
