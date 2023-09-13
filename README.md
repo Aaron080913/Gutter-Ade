@@ -2,7 +2,9 @@
 
 The Gutter-Ade Website is for A local Family Run Business that is offering Gutter Cleaning At A competititive price.
 
-Users of this website are able to view Services which the company provide aswell as to put their own contact information to recieve A quote. The Site is targeted towards The General public who are looking to have their gutters cleaned in the local area. ![Responsice Mockup]<https://github.com/Aaron080913/Gutter-Ade/blob/main/Assets/ReadMe-Images/Gutter-Ade%20Mockup.jpeg>
+Users of this website are able to view Services which the company provide aswell as to put their own contact information to recieve A quote. The Site is targeted towards The General public who are looking to have their gutters cleaned in the local area. ![Responsice Mockup]!![Gutter-Ade Mockup](https://github.com/Aaron080913/Gutter-Ade/assets/139970816/3fc01d1c-c0b3-421f-8576-9a6f8fbe26b8)
+
+
 
 ## Features
 
@@ -12,35 +14,41 @@ __Navigation Bar__
 - This section also allows the user to easily navigate between pages without having to use the 'back' button to return to previous pages.
 - You are able to identfy which page you are currently viewing due to being underlined in the navigation menu.
 - It is clearly laid out as the colour of the font contrasts against the backround colour.
+![Gutter-Ade Nav Tool](https://github.com/Aaron080913/Gutter-Ade/assets/139970816/2044ff4b-4441-47ee-9f61-3c55cd40df46)
 
-<https://github.com/Aaron080913/Gutter-Ade/blob/main/Assets/ReadMe-Images/Gutter-Ade%20Nav%20Tool.jpeg>
+
 
 __Before / After Pictures & Quote__
 
 - This section Gives the customer an insight to the level of detail and attention that the company will take during A routine Clean.
 - The customer has got an option here to go to the websites dedicated form to fill out to recieve an estimated quote.
-<https://github.com/Aaron080913/Gutter-Ade/blob/main/Assets/ReadMe-Images/Gutter-Ade%20Before-After%20%26%20Quote.jpeg>
+![Gutter-Ade Before-After   Quote](https://github.com/Aaron080913/Gutter-Ade/assets/139970816/ef4f44fb-d2e3-4543-96ec-ca2e54d2b51f)
+
 __Content Div__
 
 - The Content Div gives Details about the history of the company, And the overall importance of why Gutter Cleaning is an essential maintenance.
 - The logo for the company is also displayed here, to make sure that the brand logo stands out.
-<https://github.com/Aaron080913/Gutter-Ade/blob/main/Assets/ReadMe-Images/Gutter-Ade%20Main%20Content.jpeg>
+![Gutter-Ade Main Content](https://github.com/Aaron080913/Gutter-Ade/assets/139970816/155f81c3-7485-49d6-8ce2-a53a3da71d40)
+
 __The Footer__
 
 - The Footer Section includes links to Social media platforms, aswell as ways to make contact to the company via email or by phone, the links will open in a new tab to help to assist the user for easy navigation.
 - The footer is displayed in A contrasting colour to differentiate between the main section and the footer.
 - The footer is valuable as it allows the user to be able to use social media to keep up to date with any offers and other new job reviews when needed.
-<https://github.com/Aaron080913/Gutter-Ade/blob/main/Assets/ReadMe-Images/Gutter-Ade%20Footer.jpeg>
+![Gutter-Ade Footer](https://github.com/Aaron080913/Gutter-Ade/assets/139970816/49d8bec8-5877-4863-bed4-01b456dde130)
+
 __Services we provide__
 
 - This page of the site gives the user the information about the different Cleans that they can have.
 - This section is valuable to the user as they will be able to read up about each type of clean and be able to chose the right clean for themselves.
-<https://github.com/Aaron080913/Gutter-Ade/blob/main/Assets/ReadMe-Images/Gutter-Ade%20Services%20We%20Provide.jpeg>
+![Gutter-Ade Services We Provide](https://github.com/Aaron080913/Gutter-Ade/assets/139970816/3d9064b4-4ad1-497d-bb16-a5c89df05ea7)
+
 __Contact us__
 
 - This page will allow the user to recieve A free estimated quote at how much A gutter clean will be providing details about their Home/business.
 - The user is able to enter their contact details aswell as House size, number of bedrooms, any extra outbuildings such as conservatorys and if they have snow guards, the User will be asked to enter A valid Email address aswell as only number in the mobile contact section.
-<https://github.com/Aaron080913/Gutter-Ade/blob/main/Assets/ReadMe-Images/Gutter-Ade%20Contact%20Us.jpeg>
+![Gutter-Ade Contact Us](https://github.com/Aaron080913/Gutter-Ade/assets/139970816/8da51edd-5d31-4f60-a5a0-cbaab63533ff)
+
 
 ## Testing
 
@@ -63,8 +71,9 @@ __Contact us__
 
 - Acessibility
 - I confirmed that all colours and fonts that were used are easy to read by using the website PageSpeed Insights, this was as Lighthouse on Devtools was not working I contacted Tutor support and was given this website as an alternative.
-https://github.com/Aaron080913/Gutter-Ade/blob/main/Assets/ReadMe-Images/Page%20Insight%20Gutter-Ade%20Mobile.jpeg
-<https://github.com/Aaron080913/Gutter-Ade/blob/main/Assets/ReadMe-Images/Page%20Insight%20Gutter-Ade%20Desktop.jpeg>
+![Page Insight Gutter-Ade Mobile](https://github.com/Aaron080913/Gutter-Ade/assets/139970816/b12c6a1f-4cd2-4784-91ce-451c29e76f64)
+![Page Insight Gutter-Ade Desktop](https://github.com/Aaron080913/Gutter-Ade/assets/139970816/30797f1d-8099-4aa0-915a-110d8663e5cc)
+
 
 ## Deployment
 
