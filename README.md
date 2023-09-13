@@ -2,7 +2,7 @@
 
 The Gutter-Ade Website is for A local Family Run Business that is offering Gutter Cleaning At A competititive price.
 
-Users of this website are able to view Services which the company provide aswell as to put their own contact information to recieve A quote. The Site is targeted towards The General public who are looking to have their gutters cleaned in the local area. ![Responsice Mockup]
+Users of this website are able to view Services which the company provide aswell as to put their own contact information to recieve A quote. The Site is targeted towards The General public who are looking to have their gutters cleaned in the local area. ![Responsice Mockup]<https://github.com/Aaron080913/Gutter-Ade/blob/main/Assets/ReadMe-Images/Gutter-Ade%20Mockup.jpeg>
 
 ## Features
 
@@ -13,31 +13,34 @@ __Navigation Bar__
 - You are able to identfy which page you are currently viewing due to being underlined in the navigation menu.
 - It is clearly laid out as the colour of the font contrasts against the backround colour.
 
+<https://github.com/Aaron080913/Gutter-Ade/blob/main/Assets/ReadMe-Images/Gutter-Ade%20Nav%20Tool.jpeg>
+
 __Before / After Pictures & Quote__
 
 - This section Gives the customer an insight to the level of detail and attention that the company will take during A routine Clean.
 - The customer has got an option here to go to the websites dedicated form to fill out to recieve an estimated quote.
-
+<https://github.com/Aaron080913/Gutter-Ade/blob/main/Assets/ReadMe-Images/Gutter-Ade%20Before-After%20%26%20Quote.jpeg>
 __Content Div__
 
 - The Content Div gives Details about the history of the company, And the overall importance of why Gutter Cleaning is an essential maintenance.
 - The logo for the company is also displayed here, to make sure that the brand logo stands out.
-
+<https://github.com/Aaron080913/Gutter-Ade/blob/main/Assets/ReadMe-Images/Gutter-Ade%20Main%20Content.jpeg>
 __The Footer__
 
 - The Footer Section includes links to Social media platforms, aswell as ways to make contact to the company via email or by phone, the links will open in a new tab to help to assist the user for easy navigation.
 - The footer is displayed in A contrasting colour to differentiate between the main section and the footer.
 - The footer is valuable as it allows the user to be able to use social media to keep up to date with any offers and other new job reviews when needed.
-
+<https://github.com/Aaron080913/Gutter-Ade/blob/main/Assets/ReadMe-Images/Gutter-Ade%20Footer.jpeg>
 __Services we provide__
 
 - This page of the site gives the user the information about the different Cleans that they can have.
 - This section is valuable to the user as they will be able to read up about each type of clean and be able to chose the right clean for themselves.
-
+<https://github.com/Aaron080913/Gutter-Ade/blob/main/Assets/ReadMe-Images/Gutter-Ade%20Services%20We%20Provide.jpeg>
 __Contact us__
 
 - This page will allow the user to recieve A free estimated quote at how much A gutter clean will be providing details about their Home/business.
 - The user is able to enter their contact details aswell as House size, number of bedrooms, any extra outbuildings such as conservatorys and if they have snow guards, the User will be asked to enter A valid Email address aswell as only number in the mobile contact section.
+<https://github.com/Aaron080913/Gutter-Ade/blob/main/Assets/ReadMe-Images/Gutter-Ade%20Contact%20Us.jpeg>
 
 ## Testing
 
@@ -53,13 +56,15 @@ __Contact us__
 ### Validator Testing
 
 - HTML
-- No Errors were returned when passing through the official [W3C validator]
+- No Errors were returned when passing through the official [W3C validator]<https://validator.w3.org/nu/?doc=https%3A%2F%2Faaron080913.github.io%2FGutter-Ade%2F>
 
 - CSS
-- No Errors were returned when passing through the official [(Jigsaw) validator]
+- No Errors were returned when passing through the official [(Jigsaw) validator]<https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Faaron080913.github.io%2FGutter-Ade%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en>
 
 - Acessibility
 - I confirmed that all colours and fonts that were used are easy to read by using the website PageSpeed Insights, this was as Lighthouse on Devtools was not working I contacted Tutor support and was given this website as an alternative.
+https://github.com/Aaron080913/Gutter-Ade/blob/main/Assets/ReadMe-Images/Page%20Insight%20Gutter-Ade%20Mobile.jpeg
+<https://github.com/Aaron080913/Gutter-Ade/blob/main/Assets/ReadMe-Images/Page%20Insight%20Gutter-Ade%20Desktop.jpeg>
 
 ## Deployment
 
