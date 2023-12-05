@@ -2,7 +2,7 @@
 
 The Gutter-Ade Website is for A local Family Run Business that is offering Gutter Cleaning At A competititive price.
 
-Users of this website are able to view Services which the company provide aswell as to put their own contact information to recieve A quote. The Site is targeted towards The General public who are looking to have their gutters cleaned in the local area. ![Responsice Mockup]!![Gutter-Ade Mockup](https://github.com/Aaron080913/Gutter-Ade/assets/139970816/3fc01d1c-c0b3-421f-8576-9a6f8fbe26b8)
+Users of this website are able to view Services which the company provide aswell as to put their own contact information to recieve A quote. The Site is targeted towards The General public who are looking to have their gutters cleaned in the local area. ![Gutter-Ade Mockup](https://github.com/Aaron080913/Gutter-Ade/assets/139970816/3fc01d1c-c0b3-421f-8576-9a6f8fbe26b8)
 
 
 
