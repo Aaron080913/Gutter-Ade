@@ -90,5 +90,9 @@ The live link can be found here - https://aaron080913.github.io/Gutter-Ade/
 
 - The text on the home page was made using An AI Text Generator - <https://deepai.org/machine-learning-model/text-generator>
 - The Icons in the footer, the Main Content & the free quote section were taken from [Font Awesome](https://fontawesome.com/)
+- The Before & after pictures on the home page and the services page are from A facebook page - <https://www.facebook.com/GutterproWorcester/photos>
+- The Gutter-Ade logo was made by myself on Freeform.
+- The code from this Project was inspired by the love-running code institute design.
+- used the code institute full template.
   
  
