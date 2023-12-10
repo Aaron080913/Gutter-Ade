@@ -93,6 +93,6 @@ The live link can be found here - https://aaron080913.github.io/Gutter-Ade/
 - The Before & after pictures on the home page and the services page are from A facebook page - <https://www.facebook.com/GutterproWorcester/photos>
 - The Gutter-Ade logo was made by myself on Freeform.
 - The code from this Project was inspired by the love-running code institute design.
-- used the code institute full template.
+- used the code institute full template. -<https://github.com/Code-Institute-Org/ci-full-template>
   
  
